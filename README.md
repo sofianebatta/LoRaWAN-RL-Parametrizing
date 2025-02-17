@@ -32,8 +32,6 @@ To validate the designed solution for LoRaWAN SF and TP Parametrizing, we implem
 
 The implemented network consists of 3 Gateways and multiple Raspberry Pi4 model B EDs equiped with LoRa microchip-based RN2483 (illustrated in Fig. 4). The experimentation sources code is provided in this repository.
 
-![IMG_20250203_103702](https://github.com/user-attachments/assets/636d4cfe-e1da-4744-90ff-163a4672a23b)
-
 ![RN2483_picture](https://github.com/user-attachments/assets/72141cbf-0146-4ff7-9adb-195b2c987d9a)
 
 
