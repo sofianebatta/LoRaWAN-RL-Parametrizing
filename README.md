@@ -1,4 +1,4 @@
-#LoRaWAN RL Parametrizing
+# LoRaWAN RL Parametrizing
 
 In this work, we propose the integration of reinforcement learning (Q-learning) for decentralized and adaptive resource allocation. The approach enables end devices to autonomously configure their transmission parameters, such as spreading factors and power levels, based on local environmental feedback. The model design carries a distributed and adaptive plug-and-play model that enables end Lora devices to operate autonomously without impacting the overall algorithm performance.
 
