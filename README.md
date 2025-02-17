@@ -12,7 +12,7 @@ In our model, states are defined by the pair (SNR, TP) and actions are represent
 |Parameters|Values|
 |---|---|
 |Spreading Factor | 7, 8, 9, 10, 11, 12 |
-|Transmission Power | 6, 8, 10, 12, 14 [dBm]|
+|Transmission Power [dBm]| 6, 8, 10, 12, 14 |
 
 During the model conception, various reward formulations were investigated to optimize the performances of our model. This later specifically promotes the following behaviors:
 
