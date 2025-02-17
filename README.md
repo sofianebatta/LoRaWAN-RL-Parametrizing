@@ -7,6 +7,12 @@ The spreading power (SF) and transmitting power (TP) allocation learning process
 
 ![Phase2](https://github.com/user-attachments/assets/c57e8d90-b2d8-4134-b4b5-44197bdf626c)
 
+In our model, states are defined by the pair (SNR, TP) and actions are represented as pairs (SF, TP). The permissible values for SF and TP are outlined in the following table:
+
+|Parameters|Values|
+|---|---|
+|Spreading Factor | 7, 8, 9, 10, 11, 12 |
+|Transmission Power | 6, 8, 10, 12, 14 [dBm]|
 
 During the model conception, various reward formulations were investigated to optimize the performances of our model. This later specifically promotes the following behaviors:
 
