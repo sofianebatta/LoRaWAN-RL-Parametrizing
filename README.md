@@ -10,9 +10,24 @@ The spreading power (SF) and transmitting power (TP) allocation learning process
 
 During the model conception, various reward formulations were investigated to optimize the performances of our model. This later specifically promotes the following behaviors:
 
-* **TP optimization**: Positive rewards are given for actions that optimize TP while preserving a stable communication link. i.e, actions that reduce TP while staying within the required SNR thresholds (Table II) receive higher rewards.
+* **TP optimization**: Positive rewards are given for actions that optimize TP while preserving a stable communication link. i.e, actions that reduce TP while staying within the required SNR thresholds (Table I) receive higher rewards.
 * **Maintaining communication QoS**: Positive rewards are granted when actions maintain or increase SNR values above the necessary reception thresholds (Table I), ensuring a consistently high communication QoS.
 * **Penalties for SNR declines**: Negative rewards are assigned for actions resulting in SNR values that exceed limits or fail to meet required margins. Similarly, actions that increase energy consumption without enhancing SNR margins incur penalties to discourage resources waste.
+
+|SF | Data rate [kb/s] |Sensitivity [dBm] |Required SNR [dB]|
+|---|---|----|-------|
+7 | 5.458 | -126.5 | -7.5|
+8 | 3.125 | -127.25 | -10|
+9 | 1.757 | -131.25 | -12.5|
+10 | 0.976 | -132.75 | -15|
+11 | 0.537 | -133.25 | -17.5|
+12 | 0.293 | -134.5 | -20|
+
+| Nom     | Âge | Pays      |
+|---------|----|-----------|
+| Alice   | 25 | France    |
+| Bob     | 30 | Canada    |
+| Charlie | 22 | Belgique  |
 
 # Experimental Setup
 
