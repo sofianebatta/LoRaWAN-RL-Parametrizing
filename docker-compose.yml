@@ -1,0 +1,27 @@
+#
+# LoRaWAN DSF2R Experiment Dockercompose
+#
+# M.Alexandre   feb.25  initial release
+#
+version: '3'
+
+services:
+
+  lora_dsf2r_experiment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lora_dsf2r_experiment:latest
+    # WARNING: a container-name implies only one instance
+    container_name: lora_dsf2r_experiment
+    restart: unless-stopped
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./app/config:/app/config
+      - ./app/logs:/app/logs
+      - ./app/files_env:/app/files_env
+    privileged: true
+    network_mode: bridge
+    environment:
+      - TZ=Europe/Paris
+      - NODE=node-1.env
