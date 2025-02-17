@@ -38,7 +38,7 @@ The implemented network consists of 3 Gateways and multiple Raspberry Pi4 model 
 # Scientific Article Citation
 Comming soon!
 
-## Authors: 
+### Authors: 
   * M. S. BATTA (mohamed-sofiane.batta@irit.fr)
   * R. KACIMI (rahim.kacimi@irit.fr)
   * A. MORAL (alexandre.moral@irit.fr)
