@@ -16,9 +16,7 @@ During the model conception, various reward formulations were investigated to op
 
 # Experimental Setup
 
-To validate the designed solution for LoRaWAN SF and TP Parametrizing, we implemented a real testbed deployed within Toulouse University campus (as shown in the figure). For
-the backend setup, we used [Mosquitto](https://mosquitto.org/)
-. 
+To validate the designed solution for LoRaWAN SF and TP Parametrizing, we implemented a real testbed deployed within Toulouse University campus (as shown in the following map). For the backend setup, we used [Mosquitto](https://mosquitto.org/). 
 
 ![carte_experimentation](https://github.com/user-attachments/assets/94fcb6dd-1791-482a-9ec3-9c716798ec59)
 
@@ -26,6 +24,7 @@ The implemented network consists of 3 Gateways and multiple Raspberry Pi4 model 
 
 ![IMG_20250203_103702](https://github.com/user-attachments/assets/636d4cfe-e1da-4744-90ff-163a4672a23b)
 
+<img src="[images/mon-image.png](https://github.com/user-attachments/assets/636d4cfe-e1da-4744-90ff-163a4672a23b)" alt="Description" width="300" height="200">
 
 
 # Article Citation
