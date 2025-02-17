@@ -23,11 +23,6 @@ During the model conception, various reward formulations were investigated to op
 11 | 0.537 | -133.25 | -17.5|
 12 | 0.293 | -134.5 | -20|
 
-| Nom     | Âge | Pays      |
-|---------|----|-----------|
-| Alice   | 25 | France    |
-| Bob     | 30 | Canada    |
-| Charlie | 22 | Belgique  |
 
 # Experimental Setup
 
