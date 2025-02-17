@@ -2,7 +2,7 @@
 
 In this work, we propose the integration of reinforcement learning (Q-learning) for decentralized and adaptive resource allocation. The approach enables end devices to autonomously configure their transmission parameters, such as spreading factors and power levels, based on local environmental feedback. The model design carries a distributed and adaptive plug-and-play model that enables end Lora devices to operate autonomously without impacting the overall algorithm performance.
 
-**Model Training**
+# Model Training
 The spreading power (SF) and transmitting power (TP) allocation learning process is illustrated in the following figure. 
 
 ![Phase2](https://github.com/user-attachments/assets/c57e8d90-b2d8-4134-b4b5-44197bdf626c)
@@ -14,7 +14,7 @@ TP optimization: Positive rewards are given for actions that optimize TP while p
 Maintaining communication QoS: Positive rewards are granted when actions maintain or increase SNR values above the necessary reception thresholds (Table I), ensuring a consistently high communication QoS.
 Penalties for SNR declines: Negative rewards are assigned for actions resulting in SNR values that exceed limits or fail to meet required margins. Similarly, actions that increase energy consumption without enhancing SNR margins incur penalties to discourage resources waste.
 
-**Experimental Setup**
+# Experimental Setup
 
 To validate the designed solution for LoRaWAN SF and TP Parametrizing, we implemented a real testbed deployed within Toulouse University campus (as shown in the figure). For
 the backend setup, we used Mosquitto. 
