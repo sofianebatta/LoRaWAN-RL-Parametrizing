@@ -13,8 +13,9 @@ This script python get and will run the RL algorithm
 #
 # ===
 # feb.24  release
-# Codding and RN2483 integration: A.MORAL 
+
 # Model conception and RL training : M. BATTA
+# Codding and RN2483 integration: A.MORAL 
 # Test and Supervision: R. KACIMI
 
 #############################################################################
